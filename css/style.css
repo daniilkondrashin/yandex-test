@@ -59,9 +59,6 @@ body {
     position: absolute;
     transform: translateZ(-1px);
 }
-
-.header__background-ellipse {}
-
 .header__background-slogan {
     position: absolute;
     z-index: 3;
@@ -102,8 +99,6 @@ body {
     text-align: left;
     z-index: 10;
 }
-
-.header__subtitle {}
 
 .header__subtitle-text {
     font-size: 24px;
@@ -193,7 +188,6 @@ body {
     bottom: 0px;
     z-index: 100;
 }
-
 .button-mobile {
     box-sizing: border-box;
     border-radius: 36px;
@@ -209,9 +203,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.main {}
-
 .club {
     margin-top: 125px;
     display: grid;
@@ -228,9 +219,6 @@ body {
     font-weight: 900;
     line-height: 100%
 }
-
-.club__content {}
-
 .club__content-img {
     margin-bottom: 15px;
 }
@@ -317,8 +305,6 @@ body {
     display: flex;
     padding: 0;
     margin: 0;
-    grid-template-columns: none;
-    grid-template-rows: none;
     width: 400%;
     transition: .5s;
     margin-top: 50px;
@@ -397,7 +383,6 @@ body {
     margin-top: 50px;
 }
 
-.buy__container-img {}
 
 .buy__img {
     max-width: 420px;
@@ -405,7 +390,6 @@ body {
     display: inline-block;
 }
 
-.buy__button {}
 
 .footer {
     margin-top: 110px;

@@ -2,16 +2,15 @@ const images = document.querySelectorAll('.slider__img');
 const sliderLine = document.querySelector('.exclusive__track');
 let count = 0;
 let width;
+document.querySelector('#back').classList.add('_disabled');
 
 function init() {
-    console.log('resize');
     width = document.querySelector('.exclusive__slider').offsetWidth;
     sliderLine.style.width = width * images.length + 'px';
     images.forEach(item => {
         item.style.width = width + 'px';
         item.style.height = 'auto';
     });
-    console.log(width);
     rollSlider();
 }
 init();
